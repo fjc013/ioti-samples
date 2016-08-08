@@ -14,10 +14,10 @@
  * <password> - read from the IoT4I Service Credentials page
  */
 var config = module.exports = {
-	api: "https://iot4insurance-api-<instanceid>.mybluemix.net", // the URL must not end with /
-	aggregator: "https://iot4i-aggregator-<instanceid>.mybluemix.net", // the URL must not end with /
+	api: "https://iot4insurance-api-azl.mybluemix.net", // the URL must not end with /
+	aggregator: "https://iot4i-aggregator-azl.mybluemix.net", // the URL must not end with /
 	credentials : {
-		user: "admin",
-		pass: "<password from IoT4I Service Credentials>"
+		user: "Admin",
+		pass: "987437a3-7049-4d93-931e-b1c006761426"
 	}
 };
